@@ -9,7 +9,7 @@ Due to the asynchronous nature of React Native's native bridge, this package add
 ## Installation
 
 ```shell
-yarn add react-native-stellar-sdk
+yarn add @pigzbe/react-native-stellar-sdk
 ```
 
 Link native randomBytes module:
