@@ -1,6 +1,6 @@
 {
   "name": "@pigzbe/react-native-stellar-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stellar SDK for React Native",
   "author": "Ian McGregor <ian@mcgregor.codes>",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "publish": "npm publish --access public"
   },
   "dependencies": {
-    "react-native-randombytes": "^3.0.0"
+    "react-native-randombytes": "https://github.com/ianmcgregor/react-native-randombytes.git"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
