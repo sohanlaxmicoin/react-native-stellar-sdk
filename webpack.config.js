@@ -11,7 +11,7 @@ module.exports = {
         filename: 'stellar-sdk.js',
         path: path.resolve(__dirname, './'),
         library: 'StellarSdk',
-        libraryTarget:'umd'
+        libraryTarget: 'umd'
     },
 
     externals: [
@@ -20,8 +20,8 @@ module.exports = {
 
     resolve: {
         alias: {
-            'crypto': path.resolve(__dirname, 'src/crypto.js'),
-            'eventsource': 'react-native-event-source'
+            crypto: path.resolve(__dirname, 'src/crypto.js'),
+            eventsource: 'react-native-event-source'
         }
     },
 

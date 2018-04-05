@@ -10,6 +10,7 @@
   },
   "main": "stellar-sdk.js",
   "scripts": {
+    "axiosfix": "cd node_modules/stellar-sdk && yarn upgrade axios && yarn add axios",
     "start": "webpack",
     "test": "jest",
     "publish": "npm publish --access public"
