@@ -1,6 +1,6 @@
 {
   "name": "@pigzbe/react-native-stellar-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Stellar SDK for React Native",
   "author": "Ian McGregor <ian@mcgregor.codes>",
   "license": "MIT",
