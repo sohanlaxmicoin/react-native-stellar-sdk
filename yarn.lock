@@ -722,13 +722,6 @@ axios@^0.12.0:
   dependencies:
     follow-redirects "0.0.7"
 
-axios@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
-  dependencies:
-    follow-redirects "^1.3.0"
-    is-buffer "^1.1.5"
-
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -3053,12 +3046,6 @@ follow-redirects@0.0.7:
   dependencies:
     debug "^2.2.0"
     stream-consume "^0.1.0"
-
-follow-redirects@^1.3.0:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.4.1.tgz#d8120f4518190f55aac65bb6fc7b85fcd666d6aa"
-  dependencies:
-    debug "^3.1.0"
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
@@ -6027,9 +6014,9 @@ react-native-event-source@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-native-event-source/-/react-native-event-source-1.0.1.tgz#7d063207d2d2d58f587bdd15f1783ebe4bc65c87"
 
-"react-native-randombytes@https://github.com/ianmcgregor/react-native-randombytes.git":
-  version "3.0.0"
-  resolved "https://github.com/ianmcgregor/react-native-randombytes.git#7b581da8c9c540a2a28d77da9bb87a1d34128948"
+react-native-randombytes@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-randombytes/-/react-native-randombytes-3.2.0.tgz#81ad85c854992ad5b36427095aa179acaff84ed0"
   dependencies:
     buffer "^4.9.1"
     sjcl "^1.0.3"

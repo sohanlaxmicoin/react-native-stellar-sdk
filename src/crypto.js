@@ -1,5 +1,6 @@
-const createHash = require('create-hash');
-const RNRandomBytes = require('react-native').NativeModules.RNRandomBytes;
+import createHash from 'create-hash';
+import {NativeModules} from 'react-native';
+const {RNRandomBytes} = NativeModules;
 
 if (!RNRandomBytes) {
     throw new Error('react-native-randombytes not linked');
@@ -21,8 +22,10 @@ const randomBytes = () => {
     throw new Error('Use crypto.randomBytesAsync for React Native');
 };
 
-module.exports = {
+export {
     randomBytesAsync,
     randomBytes,
     createHash
 };
+
+export default module.exports;

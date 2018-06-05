@@ -21,9 +21,9 @@ react-native link react-native-randombytes
 ## Usage
 
 ```javascript
-import Stellar from '@pigzbe/react-native-stellar-sdk';
+import {Keypair} from '@pigzbe/react-native-stellar-sdk';
 
-Stellar.Keypair.randomAsync().then(keypair => {
+const keypair = Keypair.randomAsync().then(keypair => {
     const publicKey = keypair.publicKey();
     const secretKey = keypair.secret();
 });

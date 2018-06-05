@@ -16,7 +16,7 @@
     "publish": "npm publish --access public"
   },
   "dependencies": {
-    "react-native-randombytes": "https://github.com/ianmcgregor/react-native-randombytes.git"
+    "react-native-randombytes": "^3.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
@@ -36,6 +36,9 @@
     "verbose": true,
     "globals": {
       "window": true
-    }
+    },
+    "setupFiles": [
+      "<rootDir>/test/setup.js"
+    ]
   }
 }

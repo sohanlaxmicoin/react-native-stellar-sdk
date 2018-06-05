@@ -1,14 +1,14 @@
-const {randomBytesAsync} = require('./crypto');
+import {randomBytesAsync} from './crypto';
+import {Keypair} from 'stellar-sdk';
 
-const Stellar = require('stellar-sdk');
-
-Stellar.Keypair.randomAsync = function randomAsync() {
+Keypair.randomAsync = function randomAsync() {
     return randomBytesAsync(32)
-        .then(secret => Stellar.Keypair.fromRawEd25519Seed(secret));
+        .then(secret => Keypair.fromRawEd25519Seed(secret));
 };
 
-Stellar.Keypair.random = function random() {
+Keypair.random = function random() {
     throw new Error('Use Stellar.Keypair.randomAsync for React Native');
 };
 
-module.exports = Stellar;
+export * from 'stellar-sdk';
+export default module.exports;
